@@ -1,6 +1,6 @@
 #
 # Builds a Docker image.
-#
+
 # Environment variables:
 #
 #   CONTAINER_REGISTRY - The hostname of your container registry.
