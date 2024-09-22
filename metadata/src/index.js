@@ -46,6 +46,7 @@ async function startMicroservice(dbHost, dbName, rabbitHost, port) {
     //
     async function consumeVideoUploadedMessage(msg) { 
         console.log("Received a 'viewed-uploaded' message");
+        console.log("hello world");
 
         const parsedMsg = JSON.parse(msg.content.toString()); // Parses the JSON message.
 
