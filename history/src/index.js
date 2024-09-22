@@ -73,6 +73,7 @@ async function main() {
 	const { queue } = await messageChannel.assertQueue("", { exclusive: true }); 
 
     console.log(`Created queue ${queue}, binding it to "viewed" exchange.`);
+    //test comment
     
     //
     // Binds the queue to the exchange.

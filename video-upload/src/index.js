@@ -60,6 +60,7 @@ async function main() {
     });
 
     // Other handlers go here.
+    // test comment
 
     app.listen(PORT, () => { // Starts the HTTP server.
         console.log("Microservice online.");

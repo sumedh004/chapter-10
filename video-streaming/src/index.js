@@ -52,6 +52,7 @@ async function main() {
 
     app.listen(PORT, () => { // Starts the HTTP server.
         console.log("Microservice online.");
+        console.log("helllo word");
     });
 }
 

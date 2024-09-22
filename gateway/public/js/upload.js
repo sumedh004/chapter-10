@@ -35,6 +35,7 @@ function uploadFile(file) {
             //
             const uploadInput = document.getElementById("uploadInput");
             uploadInput.value = null;
+            // test comment
         })
         .catch((err) => { 
             console.error(`Failed to upload: ${file.name}`);
